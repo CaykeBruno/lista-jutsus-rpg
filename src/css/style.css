@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Yatra+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../images/background-konoha.jpg);
+    background-position: center;
+    background-size: 100vh;
+    background-attachment: fixed;
+    color: black;
+}
+
+header {
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 30px;
+    max-width: 800px;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    padding: 8px 0px;
+}
+
+.logo {
+    width: 100px;
+}
+
+main {
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.categoria {
+    font-size: 50px;
+}
+
+#gennin,
+#chuunin,
+#jounin {
+    padding: 10px;
+}
+
+.jutsu {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nome-jutsu {
+    font-size: 35px;
+    padding: 0;
+}
+
+.sharingan {
+    width: 90px;
+    margin: 10px;
+}
+
+@media (max-width: 880px) {
+    header,
+    main {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    header,
+    main {
+        width: 300px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .categoria {
+        font-size: 35px;
+    }
+
+    .nome-jutsu {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
